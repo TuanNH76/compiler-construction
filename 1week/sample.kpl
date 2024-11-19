@@ -1,0 +1,14 @@
+PROGRAM Sample;
+VAR
+  x, y: INTEGER;
+  z: CHAR;
+
+BEGIN
+  x := 10;
+  y := x + 5;
+  IF x >= y THEN
+    z := 'A';
+  ELSE
+    z := 'B';
+  END;
+END.
