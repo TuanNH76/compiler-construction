@@ -1,0 +1,21 @@
+PROGRAM SumTest;
+CONST t = 25;
+VAR
+  x: INTEGER;
+  y: INTEGER;
+  z: INTEGER;
+  g: Array(. 10 .) of INTEGER;
+  h: Array(. 10 .) of INTEGER;
+
+BEGIN
+  x := 25;
+  y := 15;
+
+  x, y := y, x;
+  g(.0.), h(.1.) := h(.1.), g(.0.);
+  x, y, z := y, x, t;
+
+  CALL WRITEI(x);
+  CALL WRITELN;
+  CALL WRITEI(y);
+END.

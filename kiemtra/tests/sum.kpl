@@ -1,0 +1,11 @@
+PROGRAM SumProgram;
+CONST t = 20;
+VAR  a:INTEGER;
+     b:INTEGER;
+     c:INTEGER;
+     s:INTEGER;
+
+BEGIN
+  s := sum a+b , t+t-c, sum t/b, t+c;
+  CALL WRITEI(s);
+END.
